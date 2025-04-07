@@ -4,9 +4,6 @@ public class Botonesseleccionanimal : MonoBehaviour
 {
     void OnGUI()
     {
-        var texto = new GUIContent("Elige tu mascota");
-        var rectButton1 = new Rect(450, 150, 200, 50);
-        GUI.Button(rectButton1, texto);
 
         var textobutton = new GUIContent("Perro");
         var rectButton = new Rect(400, 300, 100, 50);
