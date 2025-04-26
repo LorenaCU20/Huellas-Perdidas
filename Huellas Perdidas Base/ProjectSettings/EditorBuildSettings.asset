@@ -6,8 +6,47 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Inicio Juego.unity
+    guid: 1ead7f6782e066f42b89fa73b0a0a8a1
+  - enabled: 1
+    path: Assets/Scenes/Elige tu mascota.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Eleccion Perro.unity
+    guid: 9ec35b1d32236d647be70834e887f378
+  - enabled: 1
+    path: Assets/Scenes/Eleccion Gato.unity
+    guid: d04ae5e8ff641b146a1df0c9e5afcd27
+  - enabled: 1
+    path: Assets/Scenes/Nombre Mascota.unity
+    guid: c062bdffb04b51f4396edabd14835b30
+  - enabled: 1
+    path: Assets/Scenes/Menu Principal.unity
+    guid: f3d5fd199cebf4d44bd2207c388a0d48
+  - enabled: 1
+    path: "Assets/Scenes/Configuraci\xF3n.unity"
+    guid: 2cf7bead8349d614b9e3d1daa7116967
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 486d32f95701bbf459dbd375d3b3a55d
+  - enabled: 1
+    path: Assets/Scenes/Niveles 1.unity
+    guid: 40ff2c0136617944a9e6cbcc7c20507b
+  - enabled: 1
+    path: Assets/Scenes/Nivel 1.unity
+    guid: 5f4a59f7feaae9f479f5666eba295049
+  - enabled: 1
+    path: Assets/Scenes/Niveles 2.unity
+    guid: 806b09fe0986fa949ae0df09353644fa
+  - enabled: 1
+    path: Assets/Scenes/Nivel 2.unity
+    guid: ce876472e703e9e48a9425c19443289c
+  - enabled: 1
+    path: Assets/Scenes/Niveles 3.unity
+    guid: 29df61340174982408a43abef109b106
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3.unity
+    guid: 7c1ece3c911b39a44a88b2c9432e9ed6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
