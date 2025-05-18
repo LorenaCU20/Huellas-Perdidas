@@ -244,6 +244,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1272,7 +1285,53 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      P.G4_0: 6224380955821411606
+      P.G4_1: 7622489903148559606
+      P.G4_10: 3877513613821340661
+      P.G4_11: -286541505623272183
+      P.G4_12: -2030427828218410873
+      P.G4_13: 493212378053220516
+      P.G4_14: -5144851526469060051
+      P.G4_15: 6167354763076971043
+      P.G4_16: 465162342111482672
+      P.G4_17: 744389740275597163
+      P.G4_18: -7221628301765875359
+      P.G4_19: -2402916807379163055
+      P.G4_2: -7530010407916022705
+      P.G4_20: -7669385968816605200
+      P.G4_21: -5383733634370394726
+      P.G4_22: -4924127943635793482
+      P.G4_23: 8640613149616300102
+      P.G4_24: 7055582222056098484
+      P.G4_25: 4238080899488421674
+      P.G4_26: 2888420087590570750
+      P.G4_27: 7176726553906031203
+      P.G4_28: -7439914524131138160
+      P.G4_29: 5298372982815998819
+      P.G4_3: -810328590440436190
+      P.G4_30: 8015325366515209448
+      P.G4_31: 7015273835791808466
+      P.G4_32: -445560471239693750
+      P.G4_33: 729436950739966575
+      P.G4_34: 509281204965815368
+      P.G4_35: 8719362139346953318
+      P.G4_36: 2484274329978988420
+      P.G4_37: 2023604690209758648
+      P.G4_38: 902967243851657405
+      P.G4_39: 7839820347811521225
+      P.G4_4: -4469962006631361157
+      P.G4_40: -3275570778170616590
+      P.G4_41: -4782322305083673497
+      P.G4_42: -3659485107441461538
+      P.G4_43: -5666884862421448733
+      P.G4_44: 2807110045984162917
+      P.G4_45: -7911796829230694458
+      P.G4_5: -8738699863025827710
+      P.G4_6: -3213856511895372116
+      P.G4_7: -5020660234096753593
+      P.G4_8: -1923915764049467174
+      P.G4_9: 7963523525063336920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

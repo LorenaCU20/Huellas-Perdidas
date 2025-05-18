@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: beb41017af689d344b77fad6262b9458
+guid: 0202f45da61ccbb40bd7dbc6bc6373f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5644941483336017651
-    second: "Bot\xF3n_4-removebg-preview_0"
+      213: -775321543644175616
+    second: MENU_PRINCIPAL_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n_4-removebg-preview_0"
+      name: MENU_PRINCIPAL_0
       rect:
         serializedVersion: 2
-        x: 182
-        y: 73
-        width: 254
-        height: 248
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f62c14fe5cd65e40800000000000000
-      internalID: 5644941483336017651
+      spriteID: 003a164f9218d35f0800000000000000
+      internalID: -775321543644175616
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Bot\xF3n_4-removebg-preview_0": 5644941483336017651
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

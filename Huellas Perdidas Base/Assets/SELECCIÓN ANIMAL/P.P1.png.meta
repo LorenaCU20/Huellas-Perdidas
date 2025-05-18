@@ -214,6 +214,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1022,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      P.P1_0: -43768377591331261
+      P.P1_1: 6885855023674568196
+      P.P1_10: -219456118133989701
+      P.P1_11: 8273332451555956212
+      P.P1_12: -2853772521277373484
+      P.P1_13: -5803590673023895649
+      P.P1_14: 6124620604161819686
+      P.P1_15: -6054491475986171982
+      P.P1_16: -9213470582908745799
+      P.P1_17: 8688777355645768560
+      P.P1_18: -754256383173513096
+      P.P1_19: -6457968545481259138
+      P.P1_2: 2592593622784797080
+      P.P1_20: 5705795379415429342
+      P.P1_21: -5466200309738552483
+      P.P1_22: 563647297134144052
+      P.P1_23: 6869896592597103023
+      P.P1_24: -6325083652484414293
+      P.P1_25: 2814278630576752777
+      P.P1_26: 4245165266856238291
+      P.P1_27: 7521324104668337149
+      P.P1_28: 8741577910627572408
+      P.P1_29: -7362093376035273169
+      P.P1_3: 6310947210615143547
+      P.P1_30: 5534386986185221682
+      P.P1_31: -4048372928647961002
+      P.P1_32: 7460001391061652342
+      P.P1_33: -7758427801933844114
+      P.P1_34: -6786673250182157529
+      P.P1_35: -6864733532369607381
+      P.P1_4: 2646977458235439185
+      P.P1_5: -7554677148567412608
+      P.P1_6: -7641743598231681416
+      P.P1_7: -4466562856350034163
+      P.P1_8: -222830144349176275
+      P.P1_9: 1355544751535354733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

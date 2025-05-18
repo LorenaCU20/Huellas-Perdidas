@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: beb41017af689d344b77fad6262b9458
+guid: b57cd35e1842a2340aa3816a66fa70ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5644941483336017651
-    second: "Bot\xF3n_4-removebg-preview_0"
+      213: -7712970164758094553
+    second: Botones menu principal_0
+  - first:
+      213: 5181432989990666955
+    second: Botones menu principal_1
+  - first:
+      213: 3630574735561260252
+    second: Botones menu principal_2
+  - first:
+      213: -8050705833141130584
+    second: Botones menu principal_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +106,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n_4-removebg-preview_0"
+      name: Botones menu principal_0
       rect:
         serializedVersion: 2
-        x: 182
-        y: 73
-        width: 254
-        height: 248
+        x: 682
+        y: 719
+        width: 368
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f62c14fe5cd65e40800000000000000
-      internalID: 5644941483336017651
+      spriteID: 72d586e008606f490800000000000000
+      internalID: -7712970164758094553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones menu principal_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 538
+        width: 367
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc242eb1ad528e740800000000000000
+      internalID: 5181432989990666955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones menu principal_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 370
+        width: 369
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcf2a38c74626230800000000000000
+      internalID: 3630574735561260252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones menu principal_3
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 188
+        width: 367
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa257003b5264090800000000000000
+      internalID: -8050705833141130584
       vertices: []
       indices: 
       edges: []
@@ -160,8 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Bot\xF3n_4-removebg-preview_0": 5644941483336017651
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
