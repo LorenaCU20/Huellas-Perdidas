@@ -7,10 +7,7 @@ using Unity.VisualScripting;
 public class MenuSeleccionPersonaje : MonoBehaviour
 {
    private int index; //Index de referencia para los personajes
-   [SerializeField] private UnityEngine.UI.Image imagen; // Referencia a la imagen del personaje que se mostrará en la UI
-
-   [SerializeField] private TextMeshProUGUI nombre; // Referencia al texto del nombre del personaje en la UI
-
+    [SerializeField] private UnityEngine.UI.Image imagen;
    private GameManager gameManager; // Referencia al GameManager (clase que contiene la lista de personajes y lógica global)
 
     private void Start()
@@ -27,10 +24,10 @@ public class MenuSeleccionPersonaje : MonoBehaviour
         CambiarPantalla(); // Actualiza la interfaz con la información del personaje actual
     }
 
-    private void CambiarPantalla(){ // Actualiza la imagen y el nombre del personaje actual en pantalla
+    private void CambiarPantalla()
+    { // Actualiza la imagen y el nombre del personaje actual en pantalla
         PlayerPrefs.SetInt("JugadorIndex", index); // Guarda el índice actual para mantenerlo entre escenas
-        imagen.sprite = gameManager.personajes[index].imagen; // Cambia la imagen en el componente UI
-
+        imagen.sprite = gameManager.personajes[index].imagen;
     }
 
     public void SiguientePersonaje(){ // Cambia al siguiente personaje en la lista

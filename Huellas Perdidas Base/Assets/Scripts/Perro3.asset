@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ede876e776d561543886b2840b6f2303, type: 3}
-  m_Name: Perro3
+  m_Name: PERRO3
   m_EditorClassIdentifier: 
   imagen: {fileID: 4473993832947835487, guid: 87d529c6a8719884f8846d724d2cca05, type: 3}
