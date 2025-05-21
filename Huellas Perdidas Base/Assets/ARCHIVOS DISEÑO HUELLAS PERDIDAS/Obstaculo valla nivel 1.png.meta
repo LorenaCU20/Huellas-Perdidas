@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Obstaculo valla nivel 1_0: 9103693043745975338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

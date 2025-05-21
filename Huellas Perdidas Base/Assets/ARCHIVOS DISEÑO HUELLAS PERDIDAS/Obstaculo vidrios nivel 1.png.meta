@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Obstaculo vidrios nivel 1_0: 1091962512561413536
+      Obstaculo vidrios nivel 1_1: -326160622785124297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

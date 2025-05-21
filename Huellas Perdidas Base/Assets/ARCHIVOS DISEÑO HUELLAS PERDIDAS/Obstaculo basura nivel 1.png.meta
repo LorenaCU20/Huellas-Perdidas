@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Obstaculo basura nivel 1_0: -342930001898055281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

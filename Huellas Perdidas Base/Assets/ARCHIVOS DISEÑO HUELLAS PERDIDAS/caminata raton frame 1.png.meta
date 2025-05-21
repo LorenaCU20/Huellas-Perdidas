@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caminata raton frame 1_0: -5901590648573733895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

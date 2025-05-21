@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Caminata gato frame 2_0: -2204400858614499524
+      Caminata gato frame 2_1: 6206863050188352202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
