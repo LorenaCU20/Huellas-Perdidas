@@ -952,7 +952,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 400, y: -85}
-  m_SizeDelta: {x: 440, y: 88}
+  m_SizeDelta: {x: 440, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370953449
 MonoBehaviour:
@@ -999,7 +999,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 214938176}
-        m_TargetAssemblyTypeName: "Elecci\xF3n, Assembly-CSharp"
+        m_TargetAssemblyTypeName: Eleccion, Assembly-CSharp
         m_MethodName: Gato
         m_Mode: 1
         m_Arguments:
@@ -1190,7 +1190,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -400, y: -85}
-  m_SizeDelta: {x: 440, y: 88}
+  m_SizeDelta: {x: 440, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824746309
 MonoBehaviour:
@@ -1237,7 +1237,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 214938176}
-        m_TargetAssemblyTypeName: "Elecci\xF3n, Assembly-CSharp"
+        m_TargetAssemblyTypeName: Eleccion, Assembly-CSharp
         m_MethodName: Perro
         m_Mode: 1
         m_Arguments:

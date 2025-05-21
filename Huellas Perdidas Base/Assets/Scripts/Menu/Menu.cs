@@ -8,12 +8,12 @@ public class Menu : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
     }
 
     public void Inventario()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 
     public void Configuracion()
