@@ -33,20 +33,41 @@ EditorBuildSettings:
     path: Assets/Scenes/Niveles 1.unity
     guid: 40ff2c0136617944a9e6cbcc7c20507b
   - enabled: 1
-    path: Assets/Scenes/Nivel 1.unity
-    guid: 5f4a59f7feaae9f479f5666eba295049
-  - enabled: 1
     path: Assets/Scenes/Niveles 2.unity
     guid: 806b09fe0986fa949ae0df09353644fa
   - enabled: 1
-    path: Assets/Scenes/Nivel 2.unity
+    path: Assets/Scenes/N2 PERRO 1.unity
     guid: ce876472e703e9e48a9425c19443289c
   - enabled: 1
     path: Assets/Scenes/Niveles 3.unity
     guid: 29df61340174982408a43abef109b106
   - enabled: 1
-    path: Assets/Scenes/Nivel 3.unity
-    guid: 7c1ece3c911b39a44a88b2c9432e9ed6
+    path: Assets/Scenes/Nivel 3_No.unity
+    guid: eafb9ced890ff3e4fb5eaa646764e9f3
+  - enabled: 1
+    path: Assets/Scenes/Inventario.unity
+    guid: a1873227956010342ace056869f8076e
+  - enabled: 1
+    path: Assets/Scenes/N3 PERRO 1.unity
+    guid: 87f4e5f9b75cc75448858038b3277999
+  - enabled: 1
+    path: Assets/Scenes/N3 GATO 1.unity
+    guid: 2a4e2775959fd2745aea6ae85aedda61
+  - enabled: 1
+    path: Assets/Scenes/Accesorios.unity
+    guid: c200cc8dc376d1b40b49874ca544fc7d
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3_Si.unity
+    guid: e13b118c7157f494db5e3024d275f98d
+  - enabled: 1
+    path: Assets/Scenes/N1 GATO 1.unity
+    guid: f6a3f0127d9f3be4ea00f71a7743f6e5
+  - enabled: 1
+    path: Assets/Scenes/N1 PERRO 1.unity
+    guid: 70bbe4b0ace4a1544bfad6a3c4189e3c
+  - enabled: 1
+    path: Assets/Scenes/N2 GATO 1.unity
+    guid: dbf860baf9646ba49b95ba549efc0823
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

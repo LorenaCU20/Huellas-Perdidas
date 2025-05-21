@@ -1,19 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Nombremascota : MonoBehaviour
+using UnityEngine.SceneManagement;
+using TMPro;
+
+public class NombreMascota : MonoBehaviour
 {
-    
-public int NUMEROMAXIMO;
-public int NUMEROMINIMO;
-public Text NUMERO;
-public void TEXTOANUMERO(string p)
-{
-    if (int.TryParse(p, out _))
+    public TMP_InputField imputText;
+    public TMP_Text textoNombre;
+    public Image Luz;
+    public GameObject BotonAceptar;
+
+    private void Awake()
     {
-        NUMERO.text = Mathf.Clamp(int.Parse (p), NUMEROMINIMO, NUMEROMAXIMO).ToString();
+        Luz.color = Color.red;
+
+        // Asegura que el texto empiece en mayúsculas si hay texto pre-cargado
+        ConvertirMayusculas(imputText.text);
+
+        // Suscribimos el método a cada cambio en el input
+        imputText.onValueChanged.AddListener(ConvertirMayusculas);
     }
-    else NUMERO.text = "NO";
-}
+
+    void Update()
+    {
+        if (textoNombre.text.Length < 4)
+        {
+            Luz.color = new Color(0.6f, 0f, 0f);
+            BotonAceptar.SetActive(false);
+        }
+        else
+        {
+            Luz.color = new Color(0f, 0.6f, 0f);
+            BotonAceptar.SetActive(true);
+        }
+    }
+
+    public void aceptar()
+    {
+        PlayerPrefs.SetString("nombre1", imputText.text.ToUpper()); // también se guarda en mayúscula
+        SceneManager.LoadScene("Menu Principal");
+    }
+
+    // Método que convierte el texto a mayúsculas
+    private void ConvertirMayusculas(string texto)
+    {
+        string mayus = texto.ToUpper();
+        imputText.text = mayus;
+        textoNombre.text = mayus;
+    }
 }
