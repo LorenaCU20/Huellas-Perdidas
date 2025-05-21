@@ -4,27 +4,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menu : MonoBehaviour
+public class Niveles_1 : MonoBehaviour
 {
-    public void Jugar()
+    public void Nivel_1()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 
-    public void Inventario()
+    public void Nivel_2()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
     }
 
-    public void Configuracion()
+    public void Nivel_3()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void Salir() 
+    public void Menu_P() 
     {
-        Debug.Log("Saliendo del Juego");
-        Application.Quit();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
    
 }
