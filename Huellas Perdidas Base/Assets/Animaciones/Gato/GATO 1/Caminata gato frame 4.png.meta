@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 9e837aa0afac52745b7ee24b19648109
+guid: b1af28a5651ad02429eb71dc9cf435c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3056312468766621527
-    second: caminata raton animacion_0
-  - first:
-      213: 7537633342729150504
-    second: caminata raton animacion_1
-  - first:
-      213: 1916305086948178392
-    second: caminata raton animacion_2
-  - first:
-      213: -4832435022629388721
-    second: caminata raton animacion_3
+      213: 7609345492097396495
+    second: Caminata gato frame 4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caminata raton animacion_0
+      name: Caminata gato frame 4_0
       rect:
         serializedVersion: 2
-        x: 136
-        y: 636
-        width: 365
-        height: 117
+        x: 436
+        y: 68
+        width: 461
+        height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a08190b00cc595d0800000000000000
-      internalID: -3056312468766621527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminata raton animacion_1
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 632
-        width: 360
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 820e280d69d0b9860800000000000000
-      internalID: 7537633342729150504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminata raton animacion_2
-      rect:
-        serializedVersion: 2
-        x: 953
-        y: 637
-        width: 366
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d9f1d4d255189a10800000000000000
-      internalID: 1916305086948178392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminata raton animacion_3
-      rect:
-        serializedVersion: 2
-        x: 1371
-        y: 626
-        width: 363
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4eb40443fdbfecb0800000000000000
-      internalID: -4832435022629388721
+      spriteID: f0f6fa5b863d99960800000000000000
+      internalID: 7609345492097396495
       vertices: []
       indices: 
       edges: []
@@ -213,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8ba1d9394f0f10f40935af5296a87bd1
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      caminata raton animacion_0: -3056312468766621527
-      caminata raton animacion_1: 7537633342729150504
-      caminata raton animacion_2: 1916305086948178392
-      caminata raton animacion_3: -4832435022629388721
+      Caminata gato frame 4_0: 7609345492097396495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 9e837aa0afac52745b7ee24b19648109
+guid: b9c1b81215e4afa459d93c2b20e7a1e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3056312468766621527
-    second: caminata raton animacion_0
-  - first:
-      213: 7537633342729150504
-    second: caminata raton animacion_1
-  - first:
-      213: 1916305086948178392
-    second: caminata raton animacion_2
-  - first:
-      213: -4832435022629388721
-    second: caminata raton animacion_3
+      213: -8043986421478036776
+    second: "BOT\xD3NDERECHO_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caminata raton animacion_0
+      name: "BOT\xD3NDERECHO_0"
       rect:
         serializedVersion: 2
-        x: 136
-        y: 636
-        width: 365
-        height: 117
+        x: 0
+        y: 0
+        width: 88
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a08190b00cc595d0800000000000000
-      internalID: -3056312468766621527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminata raton animacion_1
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 632
-        width: 360
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 820e280d69d0b9860800000000000000
-      internalID: 7537633342729150504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminata raton animacion_2
-      rect:
-        serializedVersion: 2
-        x: 953
-        y: 637
-        width: 366
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d9f1d4d255189a10800000000000000
-      internalID: 1916305086948178392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: caminata raton animacion_3
-      rect:
-        serializedVersion: 2
-        x: 1371
-        y: 626
-        width: 363
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4eb40443fdbfecb0800000000000000
-      internalID: -4832435022629388721
+      spriteID: 8da6cb1f7f40e5090800000000000000
+      internalID: -8043986421478036776
       vertices: []
       indices: 
       edges: []
@@ -222,11 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      caminata raton animacion_0: -3056312468766621527
-      caminata raton animacion_1: 7537633342729150504
-      caminata raton animacion_2: 1916305086948178392
-      caminata raton animacion_3: -4832435022629388721
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
