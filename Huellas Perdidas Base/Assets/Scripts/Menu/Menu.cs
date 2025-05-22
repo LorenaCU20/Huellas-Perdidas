@@ -8,17 +8,17 @@ public class Menu : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+        SceneManager.LoadScene("Niveles 1");
     }
 
     public void Inventario()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene("Accesorios");
     }
 
     public void Configuracion()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Configuración");
     }
 
     public void Salir() 
