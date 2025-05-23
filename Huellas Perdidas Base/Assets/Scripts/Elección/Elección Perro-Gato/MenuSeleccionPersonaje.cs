@@ -53,6 +53,6 @@ public class MenuSeleccionPersonaje : MonoBehaviour
     }
 
     public void IniciarJuego(){ // Carga la siguiente escena (por ejemplo, iniciar el juego)
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Nombre Mascota");
     }
 }
