@@ -38,7 +38,7 @@ public class NombreMascota : MonoBehaviour
     public void aceptar()
     {
         PlayerPrefs.SetString("nombre1", imputText.text.ToUpper()); // también se guarda en mayúscula
-        SceneManager.LoadScene("Menu Principal");
+        SceneManager.LoadScene("Niveles 1");
     }
 
     // Método que convierte el texto a mayúsculas

@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene("Niveles 1");
+        SceneManager.LoadScene("Elige tu mascota");
     }
 
     public void Inventario()
