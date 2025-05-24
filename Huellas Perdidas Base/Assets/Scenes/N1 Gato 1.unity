@@ -1861,7 +1861,7 @@ GameObject:
   - component: {fileID: 366857686}
   - component: {fileID: 366857685}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasPausa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2537,7 +2537,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7714906, y: -0.01817, z: -10}
+  m_LocalPosition: {x: -4.939064, y: -0.018150002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3796,7 +3796,7 @@ Transform:
   m_GameObject: {fileID: 679079965}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7714357, y: 0.11056769, z: -10}
+  m_LocalPosition: {x: -4.9389353, y: 0.26066768, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9393,8 +9393,8 @@ Transform:
   m_GameObject: {fileID: 2107720872}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.05, y: -0.77, z: 0}
-  m_LocalScale: {x: 0.024939358, y: 0.024939358, z: 0.024939358}
+  m_LocalPosition: {x: -5.2175, y: -0.6199, z: 0}
+  m_LocalScale: {x: 0.03902399, y: 0.03902399, z: 0.03902399}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 371692361}
@@ -9492,7 +9492,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   controladorSuelo: {fileID: 371692361}
-  dimensionesCaja: {x: 1, y: 0.15, z: 0}
+  dimensionesCaja: {x: -0.1, y: 0.15, z: 0}
   enSuelo: 1
   vidaMaxima: 100
   tiempoInvulnerabilidad: 1

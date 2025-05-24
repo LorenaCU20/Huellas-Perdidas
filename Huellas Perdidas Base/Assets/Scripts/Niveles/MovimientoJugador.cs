@@ -48,6 +48,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         // Obtener entrada horizontal (A/D o flechas)
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadDeMovimiento;
+        animator.SetFloat("Horizontal", Mathf.Abs(movimientoHorizontal));
 
         // Detectar salto cuando se presiona la tecla de salto
         if (Input.GetButtonDown("Jump"))
@@ -60,6 +61,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         // Verificar si el jugador está en el suelo usando OverlapBox
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
+        animator.SetBool("ensuelo", enSuelo);
 
         // Aplicar movimiento y salto
         Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
