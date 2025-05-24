@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 80f00f7d405899e4ea69cd4540dfab7b
+guid: 3f395207b87f0374480e85a7fe1ea55c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5878580777806618117
-    second: pngtree-black-arrows-ink-brush-stroke-png-image_5884032_0
+      213: 958233281609685042
+    second: BOTON DEL MENU DE PAUSA_0
   - first:
-      213: -5726070957995082268
-    second: pngtree-black-arrows-ink-brush-stroke-png-image_5884032_1
+      213: -2898360034084285534
+    second: BOTON DEL MENU DE PAUSA_1
   - first:
-      213: 2475275815768977018
-    second: pngtree-black-arrows-ink-brush-stroke-png-image_5884032_2
+      213: 5005427177731604435
+    second: BOTON DEL MENU DE PAUSA_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -132,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngtree-black-arrows-ink-brush-stroke-png-image_5884032_0
+      name: BOTON DEL MENU DE PAUSA_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 263
-        width: 249
-        height: 79
+        x: 639
+        y: 914
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50e5a94421ae49150800000000000000
-      internalID: 5878580777806618117
+      spriteID: 2385d4ab7145c4d00800000000000000
+      internalID: 958233281609685042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngtree-black-arrows-ink-brush-stroke-png-image_5884032_1
+      name: BOTON DEL MENU DE PAUSA_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 140
-        width: 250
-        height: 90
+        x: 739
+        y: 510
+        width: 344
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4edb50e3dc8e880b0800000000000000
-      internalID: -5726070957995082268
+      spriteID: 2a39739b7e4f6c7d0800000000000000
+      internalID: -2898360034084285534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngtree-black-arrows-ink-brush-stroke-png-image_5884032_2
+      name: BOTON DEL MENU DE PAUSA_2
       rect:
         serializedVersion: 2
-        x: 51
-        y: 26
-        width: 266
-        height: 77
+        x: 822
+        y: 205
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7e66086d32f95220800000000000000
-      internalID: 2475275815768977018
+      spriteID: 3df37cd8f79d67540800000000000000
+      internalID: 5005427177731604435
       vertices: []
       indices: 
       edges: []
@@ -210,10 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      pngtree-black-arrows-ink-brush-stroke-png-image_5884032_0: 5878580777806618117
-      pngtree-black-arrows-ink-brush-stroke-png-image_5884032_1: -5726070957995082268
-      pngtree-black-arrows-ink-brush-stroke-png-image_5884032_2: 2475275815768977018
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
