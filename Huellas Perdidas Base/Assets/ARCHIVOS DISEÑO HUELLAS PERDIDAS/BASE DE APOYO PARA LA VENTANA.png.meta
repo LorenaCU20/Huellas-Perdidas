@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BASE DE APOYO PARA LA VENTANA_0: -2499522615520250898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
