@@ -1,0 +1,11 @@
+# Para que Unity funcione bien con Git (evita errores de salto de línea)
+
+# Archivos de Unity
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+
+# Archivos de código
+*.cs text eol=lf
+*.shader text eol=lf
+*.txt text eol=lf
