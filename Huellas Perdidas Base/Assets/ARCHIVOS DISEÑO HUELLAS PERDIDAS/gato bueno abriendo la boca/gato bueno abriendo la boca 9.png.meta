@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 74f6c06f799b9894b8c453ad7eda1f9d
+guid: 652222824abc09049a4295d5e31af73d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3625292476189902109
-    second: animacion fuego 3_0
-  - first:
-      213: 2607720950518762656
-    second: animacion fuego 3_1
-  - first:
-      213: 4964486708339241251
-    second: animacion fuego 3_2
-  - first:
-      213: 7237335553111691019
-    second: animacion fuego 3_3
+      213: -7472605914391747310
+    second: gato bueno abriendo la boca 9_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,106 +109,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animacion fuego 3_0
+      name: gato bueno abriendo la boca 9_0
       rect:
         serializedVersion: 2
-        x: 650
-        y: 420
-        width: 321
-        height: 137
+        x: 441
+        y: 67
+        width: 460
+        height: 651
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d15023aac40af4230800000000000000
-      internalID: 3625292476189902109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: animacion fuego 3_1
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 422
-        width: 265
-        height: 136
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0acc301636c703420800000000000000
-      internalID: 2607720950518762656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: animacion fuego 3_2
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 489
-        width: 32
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32175b6bb5665e440800000000000000
-      internalID: 4964486708339241251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: animacion fuego 3_3
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 425
-        width: 33
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0f078b275e207460800000000000000
-      internalID: 7237335553111691019
+      spriteID: 215623e2388fb4890800000000000000
+      internalID: -7472605914391747310
       vertices: []
       indices: 
       edges: []
@@ -226,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 17d39c5da52988e438e7e836a08b840e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      animacion fuego 3_0: 3625292476189902109
-      animacion fuego 3_1: 2607720950518762656
-      animacion fuego 3_2: 4964486708339241251
-      animacion fuego 3_3: 7237335553111691019
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

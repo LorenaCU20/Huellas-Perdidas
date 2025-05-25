@@ -35,6 +35,11 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private float tiempoInvulnerabilidad = 1.5f; // Duración de la invulnerabilidad
     [SerializeField] private LayerMask capaEnemigo; // Capa que se ignora temporalmente al recibir daño
 
+    [Header("Bola De Fuego")]
+    [SerializeField] private GameObject prefabBolaFuego;
+    [SerializeField] private Transform puntoDisparo;
+
+
     private void Start()
     {
         // Obtener referencias a los componentes necesarios
@@ -55,6 +60,12 @@ public class MovimientoJugador : MonoBehaviour
         {
             salto = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            LanzarBolaFuego();
+        }
+
     }
 
     private void FixedUpdate()
@@ -187,4 +198,29 @@ public class MovimientoJugador : MonoBehaviour
         }
         return layer;
     }
+    
+    private void LanzarBolaFuego()
+{
+    if (prefabBolaFuego == null)
+    {
+        Debug.LogError("❌ Prefab Bola Fuego NO ASIGNADO");
+        return;
+    }
+
+    GameObject bola = Instantiate(prefabBolaFuego, puntoDisparo.position, Quaternion.identity);
+    Debug.Log("✅ BOLA INSTANTIADA");
+
+    var proyectil = bola.GetComponent<ProyectilAnimado>();
+    if (proyectil == null)
+    {
+        Debug.LogError("❌ El prefab no tiene el script ProyectilAnimado");
+    }
+    else
+    {
+        proyectil.direccion = mirandoDerecha ? Vector2.right : Vector2.left;
+        Debug.Log("➡️ Dirección asignada");
+    }
+}
+
+
 }
