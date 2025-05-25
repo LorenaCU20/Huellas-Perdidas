@@ -5469,13 +5469,13 @@ MonoBehaviour:
   CameraDistance: 10
   DeadZoneDepth: 0
   Composition:
-    ScreenPosition: {x: -0.05258143, y: 0.2954925}
+    ScreenPosition: {x: -0.051123142, y: 0.34178892}
     DeadZone:
       Enabled: 1
-      Size: {x: 0.20845073, y: 0.16894835}
+      Size: {x: 0.20845073, y: 2}
     HardLimits:
       Enabled: 1
-      Size: {x: 0.35305163, y: 0.245743}
+      Size: {x: 0.35305163, y: 2}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
@@ -5537,7 +5537,7 @@ Transform:
   m_GameObject: {fileID: 964949178}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.9389353, y: -0.20743239, z: -10}
+  m_LocalPosition: {x: -4.946661, y: -0.069469094, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6767,7 +6767,7 @@ Transform:
   m_GameObject: {fileID: 1235217952}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.9389353, y: -0.20743239, z: -10}
+  m_LocalPosition: {x: -4.946661, y: -0.069469094, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10072,7 +10072,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &2042171789
 RectTransform:
