@@ -129,12 +129,12 @@ TextureImporter:
       name: caminata gato naranja 4_0
       rect:
         serializedVersion: 2
-        x: 217
+        x: 439
         y: 68
-        width: 680
+        width: 458
         height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a51c0cf4c856bb84a94fdb5048058c3d
     internalID: 0
     vertices: []
     indices: 

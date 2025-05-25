@@ -266,7 +266,6 @@ GameObject:
   - component: {fileID: 3048080487188394541}
   - component: {fileID: 4956949821753011152}
   - component: {fileID: 4769104887850330450}
-  - component: {fileID: 2324876107907951091}
   m_Layer: 7
   m_Name: Jugador
   m_TagString: Player
@@ -471,18 +470,8 @@ MonoBehaviour:
   capaEnemigo:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &2324876107907951091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7609441647920487518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dbdf61226416df42a554bf027b3e529, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  prefabBolaFuego: {fileID: 0}
+  puntoDisparo: {fileID: 0}
 --- !u!1 &9205596114196176770
 GameObject:
   m_ObjectHideFlags: 0

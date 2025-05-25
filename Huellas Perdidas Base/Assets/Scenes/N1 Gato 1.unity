@@ -263,7 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 21162650}
   - component: {fileID: 21162651}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 21912736}
   - component: {fileID: 21912737}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,7 +1478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 267289334}
   - component: {fileID: 267289335}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1786,7 +1786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 288373582}
   - component: {fileID: 288373583}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2702,7 +2702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 397300336}
   - component: {fileID: 397300337}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3045,7 +3045,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.939171, y: -0.06912, z: -10}
+  m_LocalPosition: {x: -4.9392595, y: -0.06911999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3429,7 +3429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 539345255}
   - component: {fileID: 539345256}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3795,7 +3795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 631588462}
   - component: {fileID: 631588463}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4150,7 +4150,7 @@ GameObject:
   - component: {fileID: 662554310}
   - component: {fileID: 662554309}
   - component: {fileID: 662554308}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Vidrios
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -4899,7 +4899,7 @@ GameObject:
   - component: {fileID: 778599796}
   - component: {fileID: 778599795}
   - component: {fileID: 778599794}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Vidrios (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -7630,7 +7630,7 @@ GameObject:
   - component: {fileID: 1475557681}
   - component: {fileID: 1475557680}
   - component: {fileID: 1475557679}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Vidrios (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -7858,7 +7858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1502000780}
   - component: {fileID: 1502000781}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8356,7 +8356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620836870}
   - component: {fileID: 1620836871}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8771,7 +8771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693929122}
   - component: {fileID: 1693929123}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9466,7 +9466,7 @@ GameObject:
   - component: {fileID: 1814862904}
   - component: {fileID: 1814862903}
   - component: {fileID: 1814862902}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Vidrios (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -9861,7 +9861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928820357}
   - component: {fileID: 1928820358}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10837,7 +10837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2107667133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vidrios
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10878,7 +10878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2118905221}
   - component: {fileID: 2118905222}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Obstaculo vidrios nivel 1_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11097,6 +11097,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 863447412842856276, guid: 8cf2783f63adb1446aa4fca3745130ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 928730625369631267, guid: 8cf2783f63adb1446aa4fca3745130ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.2175
@@ -11141,7 +11145,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7609441647920487518, guid: 8cf2783f63adb1446aa4fca3745130ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2324876107907951091, guid: 8cf2783f63adb1446aa4fca3745130ad, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
