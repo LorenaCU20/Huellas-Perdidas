@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ActivadorPorTiempo : MonoBehaviour
 {
+    public GameObject fuegoVisual;  // Asigna el objeto hijo en el Inspector
     public float intervaloMinimo = 4f;
     public float intervaloMaximo = 6f;
     public float duracionEncendido = 1.5f;
@@ -19,9 +20,10 @@ public class ActivadorPorTiempo : MonoBehaviour
             float espera = Random.Range(intervaloMinimo, intervaloMaximo);
             yield return new WaitForSeconds(espera);
 
-            gameObject.SetActive(true);
+            fuegoVisual.SetActive(true);
             yield return new WaitForSeconds(duracionEncendido);
-            gameObject.SetActive(false);
+            fuegoVisual.SetActive(false);
         }
     }
 }
+

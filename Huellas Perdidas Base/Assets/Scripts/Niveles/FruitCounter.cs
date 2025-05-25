@@ -6,8 +6,8 @@ public class FruitCounter : MonoBehaviour
 {
     public static FruitCounter instancia;
 
-    public int ChiliRestantes = 8;
-    public int PescadoRestantes = 8;
+    public int ChiliRestantes = 1;
+    public int PescadoRestantes = 10;
     public int PolloRestantes = 8;
 
     public TMP_Text textoChili;
