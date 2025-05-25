@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 2ac73f289a53f534cbdc0156e428c989
+guid: 1c24c7a068cb2bd4886157d6fc2292e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6433459639728933975
-    second: menu accesorios_0
+      213: 6211927420994510167
+    second: frame-3_0
+  - first:
+      213: -5520587772321197205
+    second: frame-3_1
+  - first:
+      213: -7063788321704424899
+    second: frame-3_2
+  - first:
+      213: 3847585904885564329
+    second: frame-3_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +106,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +119,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu accesorios_0
+      name: frame-3_0
       rect:
         serializedVersion: 2
-        x: 693
-        y: 257
-        width: 1090
-        height: 738
+        x: 346
+        y: 512
+        width: 139
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a3f4292b82c7b6a0800000000000000
-      internalID: -6433459639728933975
+      spriteID: 75dd2e2c313353650800000000000000
+      internalID: 6211927420994510167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-3_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 547
+        width: 124
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b631e6f9baee263b0800000000000000
+      internalID: -5520587772321197205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-3_2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 564
+        width: 141
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a414c62f168fd90800000000000000
+      internalID: -7063788321704424899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-3_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 644
+        width: 115
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3018fbefe556530800000000000000
+      internalID: 3847585904885564329
       vertices: []
       indices: 
       edges: []
@@ -160,8 +235,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      menu accesorios_0: -6433459639728933975
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

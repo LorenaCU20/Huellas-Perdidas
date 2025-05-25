@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 2ac73f289a53f534cbdc0156e428c989
+guid: f1958fbb9ba8bfa448614b3374245fcb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6433459639728933975
-    second: menu accesorios_0
+      213: 7145473559916588272
+    second: frame-6_0
+  - first:
+      213: 295659849770376757
+    second: frame-6_1
+  - first:
+      213: -5689202926805514550
+    second: frame-6_2
+  - first:
+      213: 9135625910425249543
+    second: frame-6_3
+  - first:
+      213: -6430895078567918306
+    second: frame-6_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +109,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +122,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu accesorios_0
+      name: frame-6_0
       rect:
         serializedVersion: 2
-        x: 693
-        y: 257
-        width: 1090
-        height: 738
+        x: 838
+        y: 763
+        width: 10
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +153,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a3f4292b82c7b6a0800000000000000
-      internalID: -6433459639728933975
+      spriteID: 0fc26ca2852d92360800000000000000
+      internalID: 7145473559916588272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-6_1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 632
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e98ef11156a1400800000000000000
+      internalID: 295659849770376757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-6_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 587
+        width: 56
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac605aca414eb01b0800000000000000
+      internalID: -5689202926805514550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-6_3
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 389
+        width: 93
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70760c7ec5348ce70800000000000000
+      internalID: 9135625910425249543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-6_4
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 592
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15c6269ffed0c6a0800000000000000
+      internalID: -6430895078567918306
       vertices: []
       indices: 
       edges: []
@@ -160,8 +260,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      menu accesorios_0: -6433459639728933975
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

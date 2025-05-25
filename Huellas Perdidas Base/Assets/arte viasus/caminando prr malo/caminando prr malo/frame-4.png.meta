@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 2ac73f289a53f534cbdc0156e428c989
+guid: f567bb976aaaad84ba78577c232a0cac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6433459639728933975
-    second: menu accesorios_0
+      213: 8482680265490312400
+    second: frame-4_0
+  - first:
+      213: 8287293293829699909
+    second: frame-4_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +100,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +113,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu accesorios_0
+      name: frame-4_0
       rect:
         serializedVersion: 2
-        x: 693
-        y: 257
-        width: 1090
-        height: 738
+        x: 689
+        y: 279
+        width: 529
+        height: 472
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a3f4292b82c7b6a0800000000000000
-      internalID: -6433459639728933975
+      spriteID: 0dc24cf12c888b570800000000000000
+      internalID: 8482680265490312400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame-4_1
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 745
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5493230c751620370800000000000000
+      internalID: 8287293293829699909
       vertices: []
       indices: 
       edges: []
@@ -160,8 +185,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      menu accesorios_0: -6433459639728933975
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
