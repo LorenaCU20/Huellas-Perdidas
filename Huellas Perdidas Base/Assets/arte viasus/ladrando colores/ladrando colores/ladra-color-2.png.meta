@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ladra-color-2_0: 5358982676271171088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

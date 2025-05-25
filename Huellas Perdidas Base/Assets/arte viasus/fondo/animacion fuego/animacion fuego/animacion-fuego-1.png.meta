@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      animacion-fuego-1_0: 2470317152138133325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
