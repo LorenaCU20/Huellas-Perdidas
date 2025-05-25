@@ -2,10 +2,18 @@ using UnityEngine;
 
 public class CerrarPanelInstrucciones : MonoBehaviour
 {
-    public GameObject panelInstrucciones;
+    [SerializeField] private GameObject panelInstrucciones;
 
     public void CerrarPanel()
     {
-        panelInstrucciones.SetActive(false);
+        if (panelInstrucciones != null)
+        {
+            panelInstrucciones.SetActive(false);
+        }
+        else
+        {
+            Debug.LogError("⚠️ No has asignado el PanelInstrucciones en el inspector.");
+        }
     }
+    
 }

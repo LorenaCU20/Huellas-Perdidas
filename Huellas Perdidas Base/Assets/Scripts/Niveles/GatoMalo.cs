@@ -3,72 +3,49 @@ using UnityEngine;
 public class GatoMalo : MonoBehaviour
 {
     [Header("Disparo")]
-    public GameObject prefabBolaPelo;         // Prefab de la bola de pelo
-    public Transform puntoDisparo;            // Lugar desde donde dispara
-    public float tiempoEntreDisparos = 3f;    // Intervalo de disparo en segundos
+    public GameObject prefabBolaPelo; // ← Este aparecerá en el inspector
+    public Transform puntoDisparo;    // ← Este también aparecerá
+    public int vida = 3;
 
-    [Header("Vida")]
-    public int vida = 3;                      // Vida del gato malo
 
-    [Header("Daño al Jugador")]
-    [SerializeField] private int danoAlJugador = 20;
-    private Animator animator;
+    public float tiempoEntreDisparos = 3f;
 
     void Start()
     {
-        animator = GetComponent<Animator>();
-        if (prefabBolaPelo == null || puntoDisparo == null)
-        {
-            Debug.LogError("❌ Falta asignar el prefab de la bola de pelo o el punto de disparo.");
-            return;
-        }
-
+        Debug.Log("👀 Start() del GatoMalo ha sido ejecutado");
         InvokeRepeating(nameof(Disparar), 1f, tiempoEntreDisparos);
     }
 
     void Disparar()
+{
+    Debug.Log("🧶 Disparando bola de pelo...");
+
+    GameObject bola = Instantiate(prefabBolaPelo, puntoDisparo.position, Quaternion.identity);
+    Debug.Log("📍 Bola instanciada en: " + puntoDisparo.position);
+
+    BolaPelo script = bola.GetComponent<BolaPelo>();
+    if (script != null)
     {
-        Debug.Log("🧶 El gato está disparando...");
-
-        if (animator != null)
-        {
-            animator.SetTrigger("Disparar");
-        }
-
-        GameObject bola = Instantiate(prefabBolaPelo, puntoDisparo.position, Quaternion.identity);
-
-        BolaPelo script = bola.GetComponent<BolaPelo>();
-        if (script != null)
-        {
-            script.direccion = Vector2.left;
-        }
-        else
-        {
-            Debug.LogWarning("⚠️ La bola de pelo instanciada no tiene el script 'BolaPelo'");
-        }
+        script.direccion = Vector2.left;
     }
+    else
+    {
+        Debug.LogWarning("⚠️ La bola de pelo no tiene el script BolaPelo.cs");
+    }
+}
 
     public void RecibirDanio()
     {
+        // Por ejemplo, vida simple de 3 puntos
         vida--;
-        Debug.Log("😾 Gato malo recibió daño. Vida restante: " + vida);
+
+        Debug.Log("🔥 Gato malo recibió daño. Vida restante: " + vida);
 
         if (vida <= 0)
         {
-            // Aquí puedes agregar animación de muerte
             Destroy(gameObject);
-            Debug.Log("💀 Gato malo ha muerto.");
+            Debug.Log("💀 Gato malo destruido.");
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            MovimientoJugador jugador = collision.gameObject.GetComponent<MovimientoJugador>();
-            if (jugador != null)
-            {
-                jugador.RecibirDanio(danoAlJugador);
-            }
-        }
-    }
+
 }
