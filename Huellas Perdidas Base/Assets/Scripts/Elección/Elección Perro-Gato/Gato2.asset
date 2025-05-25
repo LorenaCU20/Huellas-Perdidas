@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede876e776d561543886b2840b6f2303, type: 3}
+  m_Name: GATO2
+  m_EditorClassIdentifier: 
+  imagen: {fileID: 4275011267964730258, guid: c9a3a8b089f88be48b7ed42674b5a732, type: 3}
