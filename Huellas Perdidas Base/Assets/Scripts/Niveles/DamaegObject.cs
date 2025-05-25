@@ -4,7 +4,7 @@ public class DamageObject : MonoBehaviour
 {
 
     [Header("Daño al Jugador")]
-    [SerializeField] private int danoAlJugador = 20;
+    [SerializeField] private int danoAlJugador = 10;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
