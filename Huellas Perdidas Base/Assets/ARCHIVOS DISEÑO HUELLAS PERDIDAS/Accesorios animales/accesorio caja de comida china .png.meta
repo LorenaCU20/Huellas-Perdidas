@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 5536b7b2aff7fea4987cb4da61523852
+guid: 7563901e09b02404693febb1a50d314a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8740788716060381825
-    second: soporte fondo general_0
+      213: -8270704148975229595
+    second: accesorio caja de comida china _0
+  - first:
+      213: -8435183947919635086
+    second: accesorio caja de comida china _1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +100,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soporte fondo general_0
+      name: accesorio caja de comida china _0
       rect:
         serializedVersion: 2
-        x: 864
-        y: 626
-        width: 821
-        height: 49
+        x: 837
+        y: 396
+        width: 209
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7d6a7239fa72b680800000000000000
-      internalID: -8740788716060381825
+      spriteID: 5656bf5856e883d80800000000000000
+      internalID: -8270704148975229595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accesorio caja de comida china _1
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 384
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d4c2114e430fa80800000000000000
+      internalID: -8435183947919635086
       vertices: []
       indices: 
       edges: []
@@ -160,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      soporte fondo general_0: -8740788716060381825
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
