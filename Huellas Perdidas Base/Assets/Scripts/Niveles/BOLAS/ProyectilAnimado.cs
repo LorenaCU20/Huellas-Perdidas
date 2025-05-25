@@ -33,6 +33,12 @@ public class ProyectilAnimado : MonoBehaviour
         {
             enemigo.Morir();
         }
+         // Si es el gato malo
+        GatoMalo gato = collision.GetComponent<GatoMalo>();
+        if (gato != null)
+        {
+            gato.RecibirDanio();
+        }
 
         Destroy(gameObject); // La bola se destruye también
     }
