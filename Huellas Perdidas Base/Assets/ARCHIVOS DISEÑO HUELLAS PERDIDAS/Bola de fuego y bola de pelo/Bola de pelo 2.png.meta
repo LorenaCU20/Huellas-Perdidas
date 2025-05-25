@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bola de pelo 2_0: 3883005766450370378
+      Bola de pelo 2_1: -2534436352233302498
+      Bola de pelo 2_2: -1750403336595650562
+      Bola de pelo 2_3: -5985466666621484830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
