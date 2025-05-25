@@ -11,6 +11,18 @@ public class ProyectilAnimado : MonoBehaviour
     void Start()
     {
         puntoInicio = transform.position;
+
+        // Ignorar colisión con todas las bolas de pelo activas
+        BolaPelo[] bolasPelo = FindObjectsOfType<BolaPelo>();
+        foreach (var bola in bolasPelo)
+        {
+            Collider2D col1 = GetComponent<Collider2D>();
+            Collider2D col2 = bola.GetComponent<Collider2D>();
+            if (col1 != null && col2 != null)
+            {
+                Physics2D.IgnoreCollision(col1, col2);
+            }
+        }
     }
 
     void Update()
@@ -24,27 +36,28 @@ public class ProyectilAnimado : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.CompareTag("Enemigo"))
     {
-        // Buscar el script del enemigo y llamarlo
-        EnemigoRaton enemigo = collision.GetComponent<EnemigoRaton>();
-        if (enemigo != null)
+        if (collision.CompareTag("Enemigo"))
         {
-            enemigo.Morir();
-        }
-         // Si es el gato malo
-        GatoMalo gato = collision.GetComponent<GatoMalo>();
-        if (gato != null)
-        {
-            gato.RecibirDanio();
-        }
+            // Buscar el script del enemigo y llamarlo
+            EnemigoRaton enemigo = collision.GetComponent<EnemigoRaton>();
+            if (enemigo != null)
+            {
+                enemigo.Morir();
+            }
 
-        Destroy(gameObject); // La bola se destruye también
+            // Si es el gato malo
+            GatoMalo gato = collision.GetComponent<GatoMalo>();
+            if (gato != null)
+            {
+                gato.RecibirDanio();
+            }
+
+            Destroy(gameObject); // La bola se destruye también
+        }
+        else if (collision.CompareTag("Obstaculo"))
+        {
+            Destroy(gameObject);
+        }
     }
-    else if (collision.CompareTag("Obstaculo"))
-    {
-        Destroy(gameObject);
-    }
-}
 }

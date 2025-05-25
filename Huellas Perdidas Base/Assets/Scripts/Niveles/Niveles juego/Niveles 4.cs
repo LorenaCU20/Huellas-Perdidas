@@ -20,7 +20,7 @@ public class Niveles_4 : MonoBehaviour
     }
     public void Menu_P()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 19);
+        SceneManager.LoadScene("Menu Principal");
     }
 
 }

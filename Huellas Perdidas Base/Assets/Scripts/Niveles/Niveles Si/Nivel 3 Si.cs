@@ -8,19 +8,19 @@ public class Nivel_3_Si : MonoBehaviour
 { 
     public void Siguiente()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Niveles 4");
         Debug.Log("Reintentar");
     }
 
     public void Inventario()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 16);
+        SceneManager.LoadScene("Accesorios");
         Debug.Log("Inventario");
     }
        
     public void Menu_P()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 19);
+        SceneManager.LoadScene("Menu Principal");
         Debug.Log("Menú Principal");
     }
 }
