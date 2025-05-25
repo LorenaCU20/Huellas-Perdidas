@@ -4619,6 +4619,8 @@ MonoBehaviour:
   capaEnemigo:
     serializedVersion: 2
     m_Bits: 256
+  prefabBolaFuego: {fileID: 0}
+  puntoDisparo: {fileID: 0}
 --- !u!95 &608982747
 Animator:
   serializedVersion: 7
@@ -5112,8 +5114,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
-  m_sharedMaterial: {fileID: -1695263859409465572, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 722af57933fd3bc47bef029a36197035, type: 2}
+  m_sharedMaterial: {fileID: -6534732281773009972, guid: 722af57933fd3bc47bef029a36197035, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9353,8 +9355,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
-  m_sharedMaterial: {fileID: -1695263859409465572, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 722af57933fd3bc47bef029a36197035, type: 2}
+  m_sharedMaterial: {fileID: -6534732281773009972, guid: 722af57933fd3bc47bef029a36197035, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9680,8 +9682,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
-  m_sharedMaterial: {fileID: -1695263859409465572, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 722af57933fd3bc47bef029a36197035, type: 2}
+  m_sharedMaterial: {fileID: -6534732281773009972, guid: 722af57933fd3bc47bef029a36197035, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12861,8 +12863,8 @@ MonoBehaviour:
   m_text: "\xA1CUIDADO! OBSERVA BIEN POR D\xD3NDE PISAS\n\nAYUDA A TU AMIGO PELUDO
     A ECONTRAR COMIDA, ALGUNOS INGREDIENTES PODR\xCDAN DARTE ALGO ESPECIAL"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
-  m_sharedMaterial: {fileID: -1695263859409465572, guid: 89ff5417e8d4ecc4ca8328c0541e0929, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 722af57933fd3bc47bef029a36197035, type: 2}
+  m_sharedMaterial: {fileID: -6534732281773009972, guid: 722af57933fd3bc47bef029a36197035, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
