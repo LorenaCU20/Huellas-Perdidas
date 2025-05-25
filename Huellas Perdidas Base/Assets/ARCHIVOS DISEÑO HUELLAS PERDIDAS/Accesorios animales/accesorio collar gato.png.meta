@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      accesorio collar gato_0: 8920456236256470921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      accesorio banano_0: 6094248319253136005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      accesorios collar perro_0: -3255592265425786771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

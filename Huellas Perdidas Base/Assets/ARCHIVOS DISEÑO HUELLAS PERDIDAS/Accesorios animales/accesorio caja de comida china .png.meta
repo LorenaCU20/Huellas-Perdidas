@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      accesorio caja de comida china _0: -8270704148975229595
+      accesorio caja de comida china _1: -8435183947919635086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
