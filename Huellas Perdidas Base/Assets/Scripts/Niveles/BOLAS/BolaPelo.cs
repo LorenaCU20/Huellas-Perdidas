@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class BolaPelo : MonoBehaviour
 {
-    public float velocidad = 5f;
-    public float distanciaMaxima = 10f;
-    public Vector2 direccion = Vector2.left;
+    [SerializeField] private float velocidad = 2f;
 
+    public Vector2 direccion = Vector2.left; // Se puede cambiar desde el script del gato
     private Vector3 puntoInicio;
+    [SerializeField] private float distanciaMaxima = 30f;
 
     void Start()
     {
@@ -17,7 +17,7 @@ public class BolaPelo : MonoBehaviour
     {
         transform.Translate(direccion * velocidad * Time.deltaTime);
 
-        if (Vector3.Distance(transform.position, puntoInicio) >= distanciaMaxima)
+        if (Vector3.Distance(transform.position, puntoInicio) > distanciaMaxima)
         {
             Destroy(gameObject);
         }
@@ -25,23 +25,19 @@ public class BolaPelo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Si golpea al jugador
         if (collision.CompareTag("Player"))
         {
             MovimientoJugador jugador = collision.GetComponent<MovimientoJugador>();
             if (jugador != null)
             {
-                jugador.RecibirDanio(35); // 💥 Daño al jugador
+                jugador.RecibirDanio(35);
             }
-
             Destroy(gameObject);
         }
-
-        // Si choca con bola de fuego
-        if (collision.GetComponent<ProyectilAnimado>())
+        else if (collision.GetComponent<ProyectilAnimado>())
         {
-            Destroy(collision.gameObject); // destruir bola de fuego
-            Destroy(gameObject);           // destruir bola de pelo
+            Destroy(collision.gameObject); // destruye la bola de fuego
+            Destroy(gameObject); // destruye la bola de pelos
         }
     }
 }
