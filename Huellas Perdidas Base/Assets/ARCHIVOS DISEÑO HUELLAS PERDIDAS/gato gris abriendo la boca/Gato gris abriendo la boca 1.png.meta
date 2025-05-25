@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gato gris abriendo la boca 1_0: 8169261367418965392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
