@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede876e776d561543886b2840b6f2303, type: 3}
   m_Name: GATO1
   m_EditorClassIdentifier: 
-  imagen: {fileID: 3995613810449238269, guid: 3425f5932b2a6f44aad9cc56fffb4f91, type: 3}
+  imagen: {fileID: -506163237467315176, guid: 4312cd0a3e027354fb32e4618962be8c, type: 3}
