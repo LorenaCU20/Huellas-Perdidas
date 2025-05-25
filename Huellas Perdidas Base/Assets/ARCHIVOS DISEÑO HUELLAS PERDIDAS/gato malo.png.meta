@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gato malo_0: -2908499388183747094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
