@@ -12,11 +12,33 @@ public class BarraVida : MonoBehaviour
 
     void Start()
     {
-        Movimiento_Jugador = GameObject.Find("Jugador").GetComponent<MovimientoJugador>();
-        VidaMax = Movimiento_Jugador.vidaMaxima;
+        // Busca el primer objeto en la escena con el tag "Player"
+        GameObject jugadorConTag = GameObject.FindGameObjectWithTag("Player");
+
+        if (jugadorConTag != null)
+        {
+            Movimiento_Jugador = jugadorConTag.GetComponent<MovimientoJugador>();
+
+            if (Movimiento_Jugador != null)
+            {
+                VidaMax = Movimiento_Jugador.vidaMaxima;
+            }
+            else
+            {
+                Debug.LogWarning("El objeto con tag 'Player' no tiene el componente MovimientoJugador.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró ningún objeto con el tag 'Player' en la escena.");
+        }
     }
+
     void Update()
     {
-        RellenoBarraVida.fillAmount = (float)Movimiento_Jugador.vidaActual / Movimiento_Jugador.vidaMaxima;
+        if (Movimiento_Jugador != null && Movimiento_Jugador.vidaMaxima > 0)
+        {
+            RellenoBarraVida.fillAmount = (float)Movimiento_Jugador.vidaActual / Movimiento_Jugador.vidaMaxima;
+        }
     }
 }
