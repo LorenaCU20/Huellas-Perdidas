@@ -160,8 +160,6 @@ public class MovimientoJugador : MonoBehaviour
     private void Morir()
     {
         Debug.Log("El personaje ha muerto.");
-<<<<<<< HEAD
-=======
         string escenaActual = SceneManager.GetActiveScene().name;
 
         switch (escenaActual)
@@ -243,7 +241,7 @@ public class MovimientoJugador : MonoBehaviour
                 Debug.LogWarning("⚠️ Escena actual no reconocida en el switch: " + escenaActual);
                 break;
         }
->>>>>>> edc3fd6268272b89544b30975312bca28f1689d8
+
     }
 
 
