@@ -112,7 +112,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: -855298285791758126, guid: 0e7605e7334a02e4ba65aead2dfe555d, type: 3}
+  m_Sprite: {fileID: -855298285791758126, guid: b25ead3fdda7f244ba2064c0da3b71b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -241,7 +241,6 @@ MonoBehaviour:
   enSuelo: 1
   vidaMaxima: 100
   vidaActual: 0
-  nombrePersonaje: 
   tiempoInvulnerabilidad: 1
   capaEnemigo:
     serializedVersion: 2
