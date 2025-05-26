@@ -1320,6 +1320,7 @@ MonoBehaviour:
   enSuelo: 1
   vidaMaxima: 100
   vidaActual: 0
+  nombrePersonaje: 
   tiempoInvulnerabilidad: 1
   capaEnemigo:
     serializedVersion: 2
