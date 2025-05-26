@@ -28,7 +28,6 @@ public class MovimientoJugador : MonoBehaviour
     [Header("Vida")]
     [SerializeField] public int vidaMaxima = 100; // Vida máxima del jugador
     public int vidaActual; // Vida actual del jugador
-    public string nombrePersonaje;
 
 
     [Header("Invulnerabilidad")]
@@ -163,19 +162,87 @@ public class MovimientoJugador : MonoBehaviour
         Debug.Log("El personaje ha muerto.");
         string escenaActual = SceneManager.GetActiveScene().name;
 
-        if (escenaActual == "N1 Gato 1")
+        switch (escenaActual)
         {
-            SceneManager.LoadScene("Nivel 1_No");
-        }
-        else if (escenaActual == "N2 Gato 1")
-        {
-            SceneManager.LoadScene("Nivel 2_No");
-        }
-        else if (escenaActual == "N3 Gato 1")
-        {
-            SceneManager.LoadScene("Nivel 3_No");
+            case "N1 Gato 1":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N1 Gato 2":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N1 Gato 3":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N1 Gato 4":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N2 Gato 1":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N2 Gato 2":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N2 Gato 3":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N2 Gato 4":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N3 Gato 1":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+            case "N3 Gato 2":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+            case "N3 Gato 3":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+            case "N3 Gato 4":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+            case "N1 PERRO 1":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N1 PERRO 2":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N1 PERRO 3":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N1 PERRO 4":
+                SceneManager.LoadScene("Nivel 1_No");
+                break;
+            case "N2 Perro 1":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N2 Perro 2":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N2 Perro 3":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N2 Perro 4":
+                SceneManager.LoadScene("Nivel 2_No");
+                break;
+            case "N3 Perro 1":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+            case "N3 Perro 2":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+            case "N3 Perro 3":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+            case "N3 Perro 4":
+                SceneManager.LoadScene("Nivel 3_No");
+                break;
+
+            default:
+                Debug.LogWarning("⚠️ Escena actual no reconocida en el switch: " + escenaActual);
+                break;
         }
     }
+
 
     // Corrutina que activa invulnerabilidad temporal y efecto visual de parpadeo
     private IEnumerator Invulnerabilidad()
@@ -215,27 +282,27 @@ public class MovimientoJugador : MonoBehaviour
     }
     
     private void LanzarBolaFuego()
-{
-    if (prefabBolaFuego == null)
     {
-        Debug.LogError("❌ Prefab Bola Fuego NO ASIGNADO");
-        return;
-    }
+        if (prefabBolaFuego == null)
+        {
+            Debug.LogError("❌ Prefab Bola Fuego NO ASIGNADO");
+            return;
+        }
 
-    GameObject bola = Instantiate(prefabBolaFuego, puntoDisparo.position, Quaternion.identity);
-    Debug.Log("✅ BOLA INSTANTIADA");
+        GameObject bola = Instantiate(prefabBolaFuego, puntoDisparo.position, Quaternion.identity);
+        Debug.Log("✅ BOLA INSTANTIADA");
 
-    var proyectil = bola.GetComponent<ProyectilAnimado>();
-    if (proyectil == null)
-    {
-        Debug.LogError("❌ El prefab no tiene el script ProyectilAnimado");
+        var proyectil = bola.GetComponent<ProyectilAnimado>();
+        if (proyectil == null)
+        {
+            Debug.LogError("❌ El prefab no tiene el script ProyectilAnimado");
+        }
+        else
+        {
+            proyectil.direccion = mirandoDerecha ? Vector2.right : Vector2.left;
+            Debug.Log("➡️ Dirección asignada");
+        }
     }
-    else
-    {
-        proyectil.direccion = mirandoDerecha ? Vector2.right : Vector2.left;
-        Debug.Log("➡️ Dirección asignada");
-    }
-}
 
 
 }
