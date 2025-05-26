@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Gato1
   m_EditorClassIdentifier: 
   imagen: {fileID: -506163237467315176, guid: 4312cd0a3e027354fb32e4618962be8c, type: 3}
+  prefabPersonaje: {fileID: 7609441647920487518, guid: 8cf2783f63adb1446aa4fca3745130ad, type: 3}
