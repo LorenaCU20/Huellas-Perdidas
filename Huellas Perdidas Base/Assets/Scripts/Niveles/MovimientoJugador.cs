@@ -28,6 +28,8 @@ public class MovimientoJugador : MonoBehaviour
     [Header("Vida")]
     [SerializeField] public int vidaMaxima = 100; // Vida máxima del jugador
     public int vidaActual; // Vida actual del jugador
+    public string nombrePersonaje;
+
 
     [Header("Invulnerabilidad")]
     private bool invulnerable = false; // Si el jugador es invulnerable actualmente
