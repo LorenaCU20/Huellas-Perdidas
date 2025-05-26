@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Linq;
 
 public class NombreMascota : MonoBehaviour
 {
@@ -14,10 +15,10 @@ public class NombreMascota : MonoBehaviour
     {
         Luz.color = Color.red;
 
-        // Asegura que el texto empiece en mayúsculas si hay texto pre-cargado
+        // Convertir texto inicial a mayúsculas
         ConvertirMayusculas(imputText.text);
 
-        // Suscribimos el método a cada cambio en el input
+        // Escuchar cambios en el campo de texto
         imputText.onValueChanged.AddListener(ConvertirMayusculas);
     }
 
@@ -34,14 +35,36 @@ public class NombreMascota : MonoBehaviour
             BotonAceptar.SetActive(true);
         }
     }
-
     public void aceptar()
     {
-        PlayerPrefs.SetString("nombre1", imputText.text.ToUpper()); // también se guarda en mayúscula
-        SceneManager.LoadScene("Niveles 1");
+        // Guardar el nombre en mayúsculas para mostrar
+        PlayerPrefs.SetString("nombre1", imputText.text.ToUpper());
+
+        if (GameManager.Instance != null && GameManager.Instance.personajeSeleccionado != null)
+        {
+            // Obtener el nombre del personaje en minúscula (ej: gato3)
+            string personajeID = GameManager.Instance.personajeSeleccionado.name.ToLower();
+
+            // Separar tipo y número
+            string tipo = new string(personajeID.TakeWhile(char.IsLetter).ToArray());   // gato o perro
+            string numero = new string(personajeID.SkipWhile(char.IsLetter).ToArray()); // 1, 2, etc.
+
+            // Capitalizar la primera letra del tipo
+            string tipoCapitalizado = char.ToUpper(tipo[0]) + tipo.Substring(1);
+
+            // Generar el nombre de la escena
+            string nombreEscena = $"Niveles 1 {tipoCapitalizado} {numero}"; // Ej: "Niveles 1 Gato 2"
+
+            Debug.Log("🔁 Cargando escena: " + nombreEscena);
+            SceneManager.LoadScene(nombreEscena);
+        }
+        else
+        {
+            Debug.LogWarning("⚠ No hay personaje seleccionado en el GameManager.");
+        }
     }
 
-    // Método que convierte el texto a mayúsculas
+
     private void ConvertirMayusculas(string texto)
     {
         string mayus = texto.ToUpper();
