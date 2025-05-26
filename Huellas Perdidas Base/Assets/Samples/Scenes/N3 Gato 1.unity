@@ -1193,7 +1193,7 @@ GameObject:
   - component: {fileID: 116249339}
   m_Layer: 9
   m_Name: limite mundo
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15616,7 +15616,7 @@ GameObject:
   - component: {fileID: 2106475317}
   m_Layer: 9
   m_Name: limite mundo (1)
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

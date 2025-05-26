@@ -54,9 +54,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         // Obtener entrada horizontal (A/D o flechas)
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadDeMovimiento;
-        animator.SetFloat("Horizontal", Mathf.Abs(movimientoHorizontal));
-
-        // Detectar salto cuando se presiona la tecla de salto
+                // Detectar salto cuando se presiona la tecla de salto
         if (Input.GetButtonDown("Jump"))
         {
             salto = true;
@@ -200,16 +198,16 @@ public class MovimientoJugador : MonoBehaviour
             case "N3 Gato 4":
                 SceneManager.LoadScene("Nivel 3_No");
                 break;
-            case "N1 PERRO 1":
+            case "N1 Perro 1":
                 SceneManager.LoadScene("Nivel 1_No");
                 break;
-            case "N1 PERRO 2":
+            case "N1 Perro 2":
                 SceneManager.LoadScene("Nivel 1_No");
                 break;
-            case "N1 PERRO 3":
+            case "N1 Perro 3":
                 SceneManager.LoadScene("Nivel 1_No");
                 break;
-            case "N1 PERRO 4":
+            case "N1 Perro 4":
                 SceneManager.LoadScene("Nivel 1_No");
                 break;
             case "N2 Perro 1":
