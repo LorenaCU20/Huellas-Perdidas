@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: PERRO4
   m_EditorClassIdentifier: 
   imagen: {fileID: -6809325359335181677, guid: 7982f5cd4b2045c4babfa7cba8a67773, type: 3}
+  prefabPersonaje: {fileID: 5459680927944419024, guid: ae4449e31f6be6748b9b7b1d783299a0, type: 3}
