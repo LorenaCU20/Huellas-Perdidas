@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede876e776d561543886b2840b6f2303, type: 3}
   m_Name: PERRO1
   m_EditorClassIdentifier: 
-  imagen: {fileID: 5813296698677053190, guid: 082f1f2ae6dec1046b61125c4e8eba28, type: 3}
+  imagen: {fileID: -3086704762351528925, guid: 3bc2bc712ea8e7742844261d57ddff42, type: 3}
   prefabPersonaje: {fileID: 1794118816100082741, guid: d1285b531f8e36b4a8996409ff18e7de, type: 3}

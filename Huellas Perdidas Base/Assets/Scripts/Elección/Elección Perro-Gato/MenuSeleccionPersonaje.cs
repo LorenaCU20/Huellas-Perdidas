@@ -1,4 +1,3 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.UI;// Contiene la clase Image (para mostrar imágenes en UI)
 using TMPro;// Para usar TextMeshProUGUI (texto moderno con mejor rendimiento)

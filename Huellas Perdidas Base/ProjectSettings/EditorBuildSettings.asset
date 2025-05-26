@@ -36,11 +36,23 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N1 Gato 1.unity
     guid: 5acddfcc2ed1e6c49a9d7b6271a5be17
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si Gato 1.unity
+    guid: c7ac71489ee8e3840a520c2e1720bc19
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_No Gato 1.unity
+    guid: fb4b387d1c68fb64f8f073ddd5fc406f
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Gato 2.unity
     guid: 509be782b8f64d140be7742a6cf8470c
   - enabled: 1
     path: Assets/Samples/Scenes/N1 Gato 2.unity
     guid: a757ccbf979b2ae42966231ae2d8909f
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_No Gato 2.unity
+    guid: 81d8466d9adab9e409e2e6b902fe79f1
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si Gato 2.unity
+    guid: 64b08b7c13779a441a2a011591064def
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Gato 3.unity
     guid: 8c03e72f426b7ad42ad2e6917755b083
@@ -48,41 +60,71 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N1 Gato 3.unity
     guid: 39642fd9bde0bea429083dc3abafe593
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_No Gato 3.unity
+    guid: 6abaf78684945734aa6b768d3a220ce9
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si Gato 3.unity
+    guid: d8855edb4cd6a6f49ae95cb30086074f
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Gato 4.unity
     guid: 76ce7636f6f7f7f458d92b31026987d3
   - enabled: 1
     path: Assets/Samples/Scenes/N1 Gato 4.unity
     guid: 5b05ae04e25a92e418b696bbe5a853e8
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_No Gato 4.unity
+    guid: 4e9cad99f5265da428e9c52ca7e11749
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si Gato 4.unity
+    guid: 3aa96eba410fd1341a057cfc43043c7b
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Perro 1.unity
     guid: 49dce48160bd96e4fab2b0d33b9b8e50
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 PERRO 1.unity
+    path: Assets/Samples/Scenes/N1 Perro 1.unity
     guid: 346284076688e594e8e7fb67dad17f0b
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_No Perro 1.unity
+    guid: d32fde3959965e94085f6330ac55353a
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si Perro 1.unity
+    guid: 8c3ebc0de38799b4981614e9fcd413f4
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Perro 2.unity
     guid: a8a33d8594154924ab44401cbd26c88f
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 PERRO 2.unity
+    path: Assets/Samples/Scenes/N1 Perro 2.unity
     guid: 75c72a421338f794795c95cbfd86a24f
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_No Perro 2.unity
+    guid: df324ec23f64dab4eabc87d43593d2fb
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si Perro 2.unity
+    guid: 83f9dbbdee12c0a46b5b3f05723c084b
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Perro 3.unity
     guid: f0f0826043ae01c49b2033a15be0328b
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 PERRO 3.unity
+    path: Assets/Samples/Scenes/N1 Perro 3.unity
     guid: aa370a471c429d34e914e89ee1184293
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_No Perro 3.unity
+    guid: 928597938c4d9ff48873b84873629f88
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si Perro 3.unity
+    guid: df2389ebb13eea64ebdeb731e13f6fb4
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Perro 4.unity
     guid: aa093cdb38e1bf04b994d26518fc627a
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 PERRO 4.unity
+    path: Assets/Samples/Scenes/N1 Perro 4.unity
     guid: e0bf8db6a8c2eb645b9a7b105d20a923
   - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_No.unity
-    guid: fb4b387d1c68fb64f8f073ddd5fc406f
+    path: Assets/Samples/Scenes/Nivel 1_No Perro 4.unity
+    guid: 440c59c1d911417418a019801c9cd44b
   - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si.unity
-    guid: c7ac71489ee8e3840a520c2e1720bc19
+    path: Assets/Samples/Scenes/Nivel 1_Si Perro 4.unity
+    guid: 1d8dd8dd2b009cd438cf317e5ae6eadb
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Gato 1.unity
     guid: 806b09fe0986fa949ae0df09353644fa
@@ -90,11 +132,23 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N2 Gato 1.unity
     guid: db13f23e7fbd91e4cb5637c7e2f78ff4
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_No Gato 1.unity
+    guid: 05a4bc061e6d22b4d84628edf23c58a3
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_Si Gato 1.unity
+    guid: f28512c245671cc4cb7064f7a39a9bb6
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Gato 2.unity
     guid: 4993dc49928bc5e46b62e00782defd4a
   - enabled: 1
     path: Assets/Samples/Scenes/N2 Gato 2.unity
     guid: e8eeac61eac10e04b9c4f445fcb01e56
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_No Gato 2.unity
+    guid: 081da5e550df565428610ed4249f8995
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_Si Gato 2.unity
+    guid: 78df879be9aa0dc4a85480d8d01dd3b4
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Gato 3.unity
     guid: 5107e1ef5177f9945b07894453cd002c
@@ -102,11 +156,20 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N2 Gato 3.unity
     guid: 0db31f4dc7817bc4aa6144968a53c704
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_Si Gato 3.unity
+    guid: 8a785ccb915f60e4abd9e261d6db2a88
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_No Gato 3.unity
+    guid: daaf0481c78295841b6843bdd137b37f
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Gato 4.unity
     guid: 6d387132da54b554fb9d65fedc328cc4
   - enabled: 1
     path: Assets/Samples/Scenes/N2 Gato 4.unity
     guid: cd63d049303bab2478f2b9b5ae8e6fec
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_Si Gato 4.unity
+    guid: 169e7dd3a46d9cc4b99bdcbcfcd5f7c6
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Perro 1.unity
     guid: 51568d5b531ec5e42ab9a2ff9e7a2fa0
@@ -114,11 +177,23 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N2 Perro 1.unity
     guid: 06072e8138b6590438561d37a9a67c86
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_Si Perro 1.unity
+    guid: 080c8c07376c84e4ea474daf19d27467
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_No Perro 1.unity
+    guid: 9cf2dd597f702bc4590a8b0280bd99e7
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Perro 2.unity
     guid: db0d73fb2f49ebf41a84002dff9ae1c4
   - enabled: 1
     path: Assets/Samples/Scenes/N2 Perro 2.unity
     guid: 080860f69bf81c942a2d9413bd35c6c6
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_No Perro 2.unity
+    guid: 7547a0dc234d84446b240170b1385ccc
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_Si Perro 2.unity
+    guid: de1855eccb24d8c4ea20c939cbb95b48
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Perro 3.unity
     guid: a62671852748b474f87a6b90f3fdc43b
@@ -126,17 +201,23 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N2 Perro 3.unity
     guid: 5a70dd59596bec546b1efeadbf69bd69
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_No Perro 3.unity
+    guid: 9d7662a5da665e5459e8397f1cbe9256
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_Si Perro 3.unity
+    guid: 99db53adc9249ed44b4c23a7f69fa0ab
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 2 Perro 4.unity
     guid: bbee713aef958cb43a7dcdf548ce1f8a
   - enabled: 1
     path: Assets/Samples/Scenes/N2 Perro 4.unity
     guid: 616ee812fe787c044874116a495381aa
   - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 2_No.unity
-    guid: 05a4bc061e6d22b4d84628edf23c58a3
+    path: Assets/Samples/Scenes/Nivel 2_Si Perro 4.unity
+    guid: 046d121e94d6ed3489f0b97b7ef829bd
   - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 2_Si.unity
-    guid: f28512c245671cc4cb7064f7a39a9bb6
+    path: Assets/Samples/Scenes/Nivel 2_No Perro 4.unity
+    guid: 599a3e8ac1b172c4da809c8c0f7f393f
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Gato 1.unity
     guid: 29df61340174982408a43abef109b106
@@ -144,11 +225,26 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N3 Gato 1.unity
     guid: 9a2f087684a252a4da54d675c9433585
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_Si Gato 1.unity
+    guid: bec3f43997ef47248aaa2dbc4787fc65
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_No Gato 1.unity
+    guid: fb0a0464c1418724b85e4d2b03c41880
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Gato 2.unity
     guid: a3ce290200f737f4db4d348c8f2c5377
   - enabled: 1
     path: Assets/Samples/Scenes/N3 Gato 2.unity
     guid: 4a9933cb564fcf74fb44d34d5d09fbcd
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_Si Gato 2.unity
+    guid: ed191073f3b7f274aa69594887db952a
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_No Gato 2.unity
+    guid: ab3ea1d87c6b14c409f3bc6a13689560
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_Si Gato 4.unity
+    guid: 873618c007dd47041b758a4f3ab2c6f1
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Gato 3.unity
     guid: 70c25e0c536675940a950de4efe6688d
@@ -156,17 +252,35 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N3 Gato 3.unity
     guid: 3d60ac0fd0b37424ba9bfdba2935ae98
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_No Gato 3.unity
+    guid: 44b886397bca3a246ae2a17c39844e80
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_Si Gato 3.unity
+    guid: d8f8e9d3e598d3d4a8968bdf88f29128
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Gato 4.unity
     guid: 1611f8af316214248a45efc3b5d05a2d
   - enabled: 1
     path: Assets/Samples/Scenes/N3 Gato 4.unity
     guid: 4ce512cac904c164cb28736e4a37cce7
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 2_No Gato 4.unity
+    guid: 87d6b48509397144cb6f38dbaf80f12a
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_No Gato 4.unity
+    guid: 7d3a7b85775a2c3449078f46dcabcb76
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Perro 1.unity
     guid: aa1c6846b51b4854fbeaee0292486363
   - enabled: 1
-    path: Assets/Samples/Scenes/N3 PERRO 1.unity
+    path: Assets/Samples/Scenes/N3 Perro 1.unity
     guid: dc4ade67a7541624bae28c3b8be1068e
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_Si Perro 1.unity
+    guid: 8877ac3db310e9249994eb4bc3d970dd
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_No Perro 1.unity
+    guid: b31298b4643f4c649a20a1deb6fb62cb
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Perro 2.unity
     guid: 113b03ff74c9b264084ce2794255db87
@@ -174,11 +288,23 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N3 Perro 2.unity
     guid: 77b030c5b56b4b449b08adb54e519dbf
   - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_No Perro 2.unity
+    guid: f0ead87927d77de4fbe0aa4fbe239a58
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_Si Perro 2.unity
+    guid: d4b4b9086f8e4704ba55b54542d5ff7c
+  - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Perro 3.unity
     guid: 657c29df6518f794f8645bab46c32521
   - enabled: 1
     path: Assets/Samples/Scenes/N3 Perro 3.unity
     guid: 95eb5025509630a44b00158fcef175ba
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_Si Perro 3.unity
+    guid: 23a88e1544851ad4ca83d8b31ccbed6b
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 3_No Perro 3.unity
+    guid: d91de92cf22270540b835697875d9d74
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Perro 4.unity
     guid: 460f60e9fcc659d4aa88a8431b6a6453
@@ -186,14 +312,11 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/N3 Perro 4.unity
     guid: 99ee935a31a850b42818af07570544d0
   - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 3_No.unity
-    guid: fb0a0464c1418724b85e4d2b03c41880
+    path: Assets/Samples/Scenes/Nivel 3_Si Perro 4.unity
+    guid: e9a5f126890c931458f63836dd0622f8
   - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 3_Si Gato.unity
-    guid: f4452d970dd99864e8eae584e569a502
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 3_Si Perro.unity
-    guid: 904453fdae4fcb04b985f6a9dea1e4a5
+    path: Assets/Samples/Scenes/Nivel 3_No Perro 4.unity
+    guid: c520a9d646251be49b559d8bf7df292e
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 4 Gato 1.unity
     guid: 7ca0fe99dfb86f048b738cc358440f90
@@ -218,26 +341,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 4 Perro 4.unity
     guid: 18254d21d94043b489ba92069854ef7c
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si 1.unity
-    guid: d93f3e4654fb1b0439a2e9ab0c9c45dd
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si 2.unity
-    guid: ed70bac1303b4b644b9929fa8ce3b27b
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si 3.unity
-    guid: 529e5e48ffe52c648bbd395fb2a81e7b
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si 4.unity
-    guid: 1a34668be99acee43a0fe084361e4d05
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si 5.unity
-    guid: e90f2e4251f641c449698dacc244338e
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si 6.unity
-    guid: 45fcb703813e664458ee159e2113120a
-  - enabled: 1
-    path: Assets/Samples/Scenes/Nivel 1_Si 7.unity
-    guid: 7ddbd6accd702e54dbd50e1ea691efcd
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -10116,7 +10116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cba3a09ea122204a95f3dc66e311ab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena: N2 Perro 1
+  nombreEscena: Nivel 1_Si Perro 1
 --- !u!1 &2058519003
 GameObject:
   m_ObjectHideFlags: 0

@@ -163,76 +163,76 @@ public class MovimientoJugador : MonoBehaviour
         switch (escenaActual)
         {
             case "N1 Gato 1":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Gato 1");
                 break;
             case "N1 Gato 2":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Gato 2");
                 break;
             case "N1 Gato 3":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Gato 3");
                 break;
             case "N1 Gato 4":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Gato 4");
                 break;
             case "N2 Gato 1":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Gato 1");
                 break;
             case "N2 Gato 2":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Gato 2");
                 break;
             case "N2 Gato 3":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Gato 3");
                 break;
             case "N2 Gato 4":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Gato 4");
                 break;
             case "N3 Gato 1":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Gato 1");
                 break;
             case "N3 Gato 2":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Gato 2");
                 break;
             case "N3 Gato 3":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Gato 3");
                 break;
             case "N3 Gato 4":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Gato 4");
                 break;
             case "N1 Perro 1":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Perro 1");
                 break;
             case "N1 Perro 2":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Perro 2");
                 break;
             case "N1 Perro 3":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Perro 3");
                 break;
             case "N1 Perro 4":
-                SceneManager.LoadScene("Nivel 1_No");
+                SceneManager.LoadScene("Nivel 1_No Perro 4");
                 break;
             case "N2 Perro 1":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Perro 1");
                 break;
             case "N2 Perro 2":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Perro 2");
                 break;
             case "N2 Perro 3":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Perro 3");
                 break;
             case "N2 Perro 4":
-                SceneManager.LoadScene("Nivel 2_No");
+                SceneManager.LoadScene("Nivel 2_No Perro 4");
                 break;
             case "N3 Perro 1":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Perro 1");
                 break;
             case "N3 Perro 2":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Perro 2");
                 break;
             case "N3 Perro 3":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Perro 3");
                 break;
             case "N3 Perro 4":
-                SceneManager.LoadScene("Nivel 3_No");
+                SceneManager.LoadScene("Nivel 3_No Perro 4");
                 break;
 
             default:
