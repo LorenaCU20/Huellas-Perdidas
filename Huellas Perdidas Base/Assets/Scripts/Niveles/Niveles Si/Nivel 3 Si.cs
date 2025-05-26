@@ -2,50 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Nivel_3_Si : MonoBehaviour
 {
-    public void Siguiente()
+    // Campo para el input de nombre (opcional si aún deseas guardar el nombre)
+    public TMP_InputField imputText;
+
+    public void aceptar()
     {
-        string ultimaEscena = PlayerPrefs.GetString("ultimaEscena", "");
-
-        if (string.IsNullOrEmpty(ultimaEscena))
+        if (imputText != null && !string.IsNullOrWhiteSpace(imputText.text))
         {
-            Debug.LogWarning("⚠ No se encontró la escena anterior.");
-            return;
-        }
-
-        string[] partes = ultimaEscena.Split(' '); // Ej: "Niveles 1 Gato 2"
-
-        if (partes.Length == 4 && partes[0] == "Niveles")
-        {
-            int nivelActual = int.Parse(partes[1]);
-            string tipo = partes[2];
-            string numero = partes[3];
-
-            int siguienteNivel = nivelActual + 1;
-            string siguienteEscena = $"Niveles {siguienteNivel} {tipo} {numero}";
-
-            Debug.Log("➡ Cargando: " + siguienteEscena);
-            SceneManager.LoadScene(siguienteEscena);
+            // Guardar el nombre en mayúsculas
+            PlayerPrefs.SetString("nombre1", imputText.text.ToUpper());
         }
         else
         {
-            Debug.LogWarning("⚠ Formato no reconocido en 'ultimaEscena': " + ultimaEscena);
+            Debug.LogWarning("⚠ El campo de nombre está vacío o no está asignado.");
         }
+
+        // Cargar la escena fija "N2 Gato 1"
+        Debug.Log("🔁 Cargando escena: N2 Gato 1");
+        SceneManager.LoadScene("N2 Gato 1");
     }
 
     public void Inventario()
     {
         SceneManager.LoadScene("Accesorios");
-        Debug.Log("Inventario");
+        Debug.Log("🧰 Inventario cargado");
     }
 
     public void Menu_P()
     {
         SceneManager.LoadScene("Menu Principal");
-        Debug.Log("Menú Principal");
+        Debug.Log("🏠 Volviendo al Menú Principal");
     }
 }
-
-    

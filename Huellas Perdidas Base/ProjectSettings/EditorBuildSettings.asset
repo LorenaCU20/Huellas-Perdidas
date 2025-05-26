@@ -57,25 +57,25 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/Niveles 1 Perro 1.unity
     guid: 49dce48160bd96e4fab2b0d33b9b8e50
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 Perro 1.unity
+    path: Assets/Samples/Scenes/N1 PERRO 1.unity
     guid: 346284076688e594e8e7fb67dad17f0b
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Perro 2.unity
     guid: a8a33d8594154924ab44401cbd26c88f
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 Perro 2.unity
+    path: Assets/Samples/Scenes/N1 PERRO 2.unity
     guid: 75c72a421338f794795c95cbfd86a24f
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Perro 3.unity
     guid: f0f0826043ae01c49b2033a15be0328b
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 Perro 3.unity
+    path: Assets/Samples/Scenes/N1 PERRO 3.unity
     guid: aa370a471c429d34e914e89ee1184293
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 1 Perro 4.unity
     guid: aa093cdb38e1bf04b994d26518fc627a
   - enabled: 1
-    path: Assets/Samples/Scenes/N1 Perro 4.unity
+    path: Assets/Samples/Scenes/N1 PERRO 4.unity
     guid: e0bf8db6a8c2eb645b9a7b105d20a923
   - enabled: 1
     path: Assets/Samples/Scenes/Nivel 1_No.unity
@@ -165,7 +165,7 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/Niveles 3 Perro 1.unity
     guid: aa1c6846b51b4854fbeaee0292486363
   - enabled: 1
-    path: Assets/Samples/Scenes/N3 Perro 1.unity
+    path: Assets/Samples/Scenes/N3 PERRO 1.unity
     guid: dc4ade67a7541624bae28c3b8be1068e
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 3 Perro 2.unity
@@ -218,5 +218,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Samples/Scenes/Niveles 4 Perro 4.unity
     guid: 18254d21d94043b489ba92069854ef7c
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si 1.unity
+    guid: d93f3e4654fb1b0439a2e9ab0c9c45dd
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si 2.unity
+    guid: ed70bac1303b4b644b9929fa8ce3b27b
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si 3.unity
+    guid: 529e5e48ffe52c648bbd395fb2a81e7b
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si 4.unity
+    guid: 1a34668be99acee43a0fe084361e4d05
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si 5.unity
+    guid: e90f2e4251f641c449698dacc244338e
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si 6.unity
+    guid: 45fcb703813e664458ee159e2113120a
+  - enabled: 1
+    path: Assets/Samples/Scenes/Nivel 1_Si 7.unity
+    guid: 7ddbd6accd702e54dbd50e1ea691efcd
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

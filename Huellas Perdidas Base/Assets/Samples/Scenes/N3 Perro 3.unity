@@ -6582,7 +6582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cba3a09ea122204a95f3dc66e311ab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena: Nivel 3_Si Perro
+  nombreEscena: Menu Principal
 --- !u!61 &828519274
 BoxCollider2D:
   m_ObjectHideFlags: 0
