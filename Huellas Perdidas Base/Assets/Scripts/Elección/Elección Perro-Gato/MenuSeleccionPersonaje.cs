@@ -25,10 +25,14 @@ public class MenuSeleccionPersonaje : MonoBehaviour
     }
 
     private void CambiarPantalla()
-    { // Actualiza la imagen y el nombre del personaje actual en pantalla
-        PlayerPrefs.SetInt("JugadorIndex", index); // Guarda el índice actual para mantenerlo entre escenas
-        imagen.sprite = gameManager.personajes[index].imagen;
-    }
+{
+    PlayerPrefs.SetInt("JugadorIndex", index); // Guarda el índice actual
+
+    imagen.sprite = gameManager.personajes[index].imagen; // Muestra la imagen en UI
+
+    GameManager.Instance.personajeSeleccionado = gameManager.personajes[index]; // ← AQUÍ GUARDAS EL PERSONAJE
+}
+
 
     public void SiguientePersonaje(){ // Cambia al siguiente personaje en la lista
         if(index==gameManager.personajes.Count - 1){ // Si está al final de la lista, vuelve al primero
