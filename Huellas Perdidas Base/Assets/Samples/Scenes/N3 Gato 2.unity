@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &34501927
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &39480487
@@ -699,7 +699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &46301246
@@ -1923,7 +1923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &245702836
@@ -2138,7 +2138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &246278610
@@ -2486,7 +2486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &291316616
@@ -2752,15 +2752,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303620305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.001720361}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 373339726}
+  m_Father: {fileID: 529917414}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -13, y: -299}
+  m_AnchoredPosition: {x: 0, y: -262}
   m_SizeDelta: {x: 996.0865, y: 56.155273}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &303620307
@@ -3418,7 +3418,6 @@ RectTransform:
   m_Children:
   - {fileID: 1543003675}
   - {fileID: 529917414}
-  - {fileID: 303620306}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3696,7 +3695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &411576957
@@ -3986,7 +3985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &445412847
@@ -4335,7 +4334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &483609073
@@ -4632,7 +4631,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.1814356, y: -0.019432247, z: -10}
+  m_LocalPosition: {x: -4.9281125, y: -0.01945, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4741,6 +4740,7 @@ RectTransform:
   - {fileID: 273565730}
   - {fileID: 730895322}
   - {fileID: 1155943716}
+  - {fileID: 303620306}
   m_Father: {fileID: 373339726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5345,7 +5345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &683602841
@@ -6305,7 +6305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &752746856
@@ -6607,7 +6607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &812630254
@@ -6855,7 +6855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &841812051
@@ -7137,7 +7137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &861020525
@@ -7488,7 +7488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &965438824
@@ -7736,7 +7736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1066350972
@@ -8440,7 +8440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1109503415
@@ -8819,7 +8819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1196488702
@@ -9292,7 +9292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1214190360
@@ -9689,7 +9689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1242844305
@@ -10125,7 +10125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1337231567
@@ -10400,7 +10400,7 @@ Transform:
   m_GameObject: {fileID: 1350308856}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.1814356, y: -0.019432247, z: -10}
+  m_LocalPosition: {x: -5.106091, y: -0.019432247, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10543,7 +10543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1364236846
@@ -10746,7 +10746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1397754832
@@ -11127,7 +11127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1465879602
@@ -11342,7 +11342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1481312383
@@ -11947,7 +11947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1627490081
@@ -12296,7 +12296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1661389520
@@ -12629,7 +12629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1695114169
@@ -13186,7 +13186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1762778664
@@ -13561,7 +13561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1784338908
@@ -14015,7 +14015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &1872152084
@@ -14736,7 +14736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 0}
+  player: {fileID: 105884135}
   detectionRadius: 2
   danoAlJugador: 20
 --- !u!50 &2039111459
