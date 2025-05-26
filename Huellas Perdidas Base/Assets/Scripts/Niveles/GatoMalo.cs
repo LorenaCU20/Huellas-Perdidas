@@ -44,7 +44,6 @@ public class GatoMalo : MonoBehaviour
         if (vida <= 0)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene("Nivel 3_Si Gato");
             Debug.Log("💀 Gato malo destruido.");
         }
     }
