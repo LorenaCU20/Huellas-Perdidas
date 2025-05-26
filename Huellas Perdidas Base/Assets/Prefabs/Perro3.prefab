@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 156190705107514709}
   m_Layer: 0
   m_Name: Perro3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,6 +241,7 @@ MonoBehaviour:
   enSuelo: 1
   vidaMaxima: 100
   vidaActual: 0
+  nombrePersonaje: 
   tiempoInvulnerabilidad: 1
   capaEnemigo:
     serializedVersion: 2

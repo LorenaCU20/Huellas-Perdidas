@@ -210,10 +210,11 @@ MonoBehaviour:
   enSuelo: 1
   vidaMaxima: 100
   vidaActual: 0
+  nombrePersonaje: 
   tiempoInvulnerabilidad: 1
   capaEnemigo:
     serializedVersion: 2
-    m_Bits: 768
+    m_Bits: 256
   prefabBolaFuego: {fileID: 0}
   puntoDisparo: {fileID: 0}
 --- !u!1 &8486820359018823669

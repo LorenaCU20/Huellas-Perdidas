@@ -1562,6 +1562,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5158995933346844646, guid: 62ed868d11bfd9a4ebe1b0087facac40, type: 3}
+      propertyPath: capaEnemigo.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 5941118048903490425, guid: 62ed868d11bfd9a4ebe1b0087facac40, type: 3}
       propertyPath: m_Name
       value: GATO2
