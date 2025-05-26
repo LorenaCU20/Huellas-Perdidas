@@ -8,18 +8,18 @@ public class Nivel_1_No : MonoBehaviour
 {
     public void Inventario()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+        SceneManager.LoadScene("Accesorios");
         Debug.Log("Inventario");
     }
 
     public void Reintentar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene("N1 Gato 1");
         Debug.Log("Reintentar");
     }
     public void Menu_P()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
+        SceneManager.LoadScene("Menu Principal");
         Debug.Log("Menú Principal");
     }
 }

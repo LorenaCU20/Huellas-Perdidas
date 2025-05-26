@@ -159,7 +159,20 @@ public class MovimientoJugador : MonoBehaviour
     private void Morir()
     {
         Debug.Log("El personaje ha muerto.");
-        SceneManager.LoadScene("Nivel 1_No"); // Cambiar de escena al morir
+        string escenaActual = SceneManager.GetActiveScene().name;
+
+        if (escenaActual == "N1 Gato 1")
+        {
+            SceneManager.LoadScene("Nivel 1_No");
+        }
+        else if (escenaActual == "N2 Gato 1")
+        {
+            SceneManager.LoadScene("Nivel 2_No");
+        }
+        else if (escenaActual == "N3 Gato 1")
+        {
+            SceneManager.LoadScene("Nivel 3_No");
+        }
     }
 
     // Corrutina que activa invulnerabilidad temporal y efecto visual de parpadeo

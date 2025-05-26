@@ -7002,6 +7002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perro1
       objectReference: {fileID: 0}
+    - target: {fileID: 1794118816100082741, guid: d1285b531f8e36b4a8996409ff18e7de, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4640378565185980547, guid: d1285b531f8e36b4a8996409ff18e7de, type: 3}
       propertyPath: dimensionesCaja.y
       value: 0.06
