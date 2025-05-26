@@ -13913,7 +13913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabBolaPelo: {fileID: 6227130638422562041, guid: 77eaccc00b60039488c09f635afe75e3, type: 3}
   puntoDisparo: {fileID: 1525694574}
-  vida: 200
+  vida: 80
   tiempoEntreDisparos: 3
 --- !u!1001 &1850062925
 PrefabInstance:
